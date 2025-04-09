@@ -9,13 +9,13 @@ const AboutPage = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Subhash B S</h1>
         <div className={styles.subtitle}>
-          Senior AI Engineer | ML Research Specialist | Expert in LLMs & Generative AI
+            AI Engineer | LLM Specialist | ML Researcher
         </div>
 
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Greetings! As a seasoned AI Engineer and ML Researcher, I thrive on transforming cutting-edge AI technologies into practical solutions. My expertise spans LLMs, Autonomous Agents, Multimodal AI, and Advanced Generative Models.
+              Greetings! As a AI Engineer and ML Researcher, I thrive on transforming cutting-edge AI technologies into practical solutions. My expertise spans LLMs, Autonomous Agents, Multimodal AI, and Advanced Generative Models.
             </p>
             <p className={styles.paragraph}>
               My technical arsenal includes comprehensive full-stack AI development - from groundbreaking research to production-grade deployments. I've successfully delivered innovative solutions across diverse domains: Intelligent QA Systems, Agricultural AI, Advanced Motion Analysis, Neural Search Engines, and State-of-the-art Computer Vision Applications.
