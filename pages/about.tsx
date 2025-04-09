@@ -15,10 +15,10 @@ const AboutPage = () => {
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Greetings! As a AI Engineer and ML Researcher, I thrive on transforming cutting-edge AI technologies into practical solutions. My expertise spans LLMs, Autonomous Agents, Multimodal AI, and Advanced Generative Models.
+              Hello! I'm an AI engineer and machine learning researcher dedicated to transforming cutting-edge technologies into real-world solutions. My expertise spans large language models, autonomous agents, multimodal AI, and advanced generative models.
             </p>
             <p className={styles.paragraph}>
-              My technical arsenal includes comprehensive full-stack AI development - from groundbreaking research to production-grade deployments. I've successfully delivered innovative solutions across diverse domains: Intelligent QA Systems, Agricultural AI, Advanced Motion Analysis, Neural Search Engines, and State-of-the-art Computer Vision Applications.
+              I specialize in full-stack AI development—ranging from pioneering research to robust production deployments—and I've delivered innovative projects across diverse domains, including intelligent QA systems, agricultural AI, advanced motion analysis, neural search engines, and state-of-the-art computer vision applications.
             </p>
             <p className={styles.paragraph}>
               Leveraging <span className={styles.highlight}>4+ years of industry experience</span>, I excel in architecting and deploying <span className={styles.highlight}>enterprise-scale AI systems</span> that transform business challenges into technological breakthroughs.
@@ -141,10 +141,10 @@ const AboutPage = () => {
             </div>
             <div className={styles.actionLinks}>
               <Link 
-                href="/projects" 
+                href="/github" 
                 className={styles.primaryLink}
               >
-                Cool Projects <VscArrowRight />
+                Github Projects <VscArrowRight />
               </Link>
             </div>
           </section>
