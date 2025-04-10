@@ -91,8 +91,9 @@ export async function getStaticProps() {
   const repos = await repoRes.json();
 
   return {
-    props: { title: 'GitHub', repos, user },
-    revalidate: 600,
+    props: { title: 'GitHub', repos, user }
+    // Remove revalidate when using 'output: export'
+    // revalidate: 600,
   };
 }
 

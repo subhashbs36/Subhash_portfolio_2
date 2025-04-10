@@ -5,21 +5,38 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "firebase-serve": "next build && next export && firebase serve --only hosting"
   },
   "dependencies": {
-    "next": "^15.2.3",
+    "next": "^15.2.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-github-calendar": "^4.5.6",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10",
-    "@types/react": "^19.0.11",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
     "eslint": "^9.22.0",
     "eslint-config-next": "^15.2.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
+  },
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }

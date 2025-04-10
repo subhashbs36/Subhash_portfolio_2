@@ -15,14 +15,15 @@ const AboutPage = () => {
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hello! I'm an AI engineer and machine learning researcher dedicated to transforming cutting-edge technologies into real-world solutions. My expertise spans large language models, autonomous agents, multimodal AI, and advanced generative models.
+              Hello! I&apos;m an AI engineer and machine learning researcher dedicated to transforming cutting-edge technologies into real-world solutions. My expertise spans large language models, autonomous agents, multimodal AI, and advanced generative models.
             </p>
             <p className={styles.paragraph}>
-              I specialize in full-stack AI development—ranging from pioneering research to robust production deployments—and I've delivered innovative projects across diverse domains, including intelligent QA systems, agricultural AI, advanced motion analysis, neural search engines, and state-of-the-art computer vision applications.
+              I specialize in full-stack AI development—ranging from pioneering research to robust production deployments—and I&apos;ve delivered innovative projects across diverse domains, including intelligent QA systems, agricultural AI, advanced motion analysis, neural search engines, and state-of-the-art computer vision applications.
             </p>
             <p className={styles.paragraph}>
               Leveraging <span className={styles.highlight}>4+ years of industry experience</span>, I excel in architecting and deploying <span className={styles.highlight}>enterprise-scale AI systems</span> that transform business challenges into technological breakthroughs.
             </p>
+            <p>It&apos;s a great day!</p>
             <div className={styles.actionLinks}>
               <Link href="/projects" className={styles.primaryLink}>
                 Explore My Projects <VscArrowRight />
@@ -211,10 +212,10 @@ const AboutPage = () => {
             </ul>
             
             <p className={styles.paragraph}>
-              Beyond development, I'm deeply engaged in the AI community - analyzing breakthrough research, competing in prestigious AI challenges, and contributing to impactful open-source initiatives. My mission is to create AI solutions that drive meaningful change and innovation.
+              Beyond development, I&apos;m deeply engaged in the AI community - analyzing breakthrough research, competing in prestigious AI challenges, and contributing to impactful open-source initiatives. My mission is to create AI solutions that drive meaningful change and innovation.
             </p>
             <p className={styles.paragraph}>
-              🚀 Ready to pioneer the next breakthrough in AI? Let's connect and create something extraordinary!
+              🚀 Ready to pioneer the next breakthrough in AI? Let&apos;s connect and create something extraordinary!
             </p>
           </section>
         </div>

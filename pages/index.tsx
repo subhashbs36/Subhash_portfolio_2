@@ -145,8 +145,11 @@ export default function HomePage() {
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   return {
-    props: { title: 'Home' },
+    props: {
+      title: 'Home',
+      conf: { distDir: '.next' }
+    }
   };
-}
+};

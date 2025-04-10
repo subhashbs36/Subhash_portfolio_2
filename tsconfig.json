@@ -3,15 +3,14 @@
     "target": "ES2017",
     "lib": [
       "dom",
-      "dom.iterable",
       "esnext"
-    ],
-    "skipLibCheck": true,
-    "strict": true,
+    ], // Add "dom" to include browser-specific types
+    "skipLibCheck": true, // Add this to ignore type errors in node_modules
+    "strict": true,       // Optional: Disable strict mode if needed
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",

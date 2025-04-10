@@ -6,7 +6,6 @@ import {
   VscLinkExternal,
   VscTypeHierarchy,
 } from 'react-icons/vsc';
-import Link from 'next/link';
 
 import { Repo } from '@/types';
 
